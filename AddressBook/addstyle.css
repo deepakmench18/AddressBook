@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    height: 100;
+}
+.header-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid green;
+    margin: 5px;
+}
+.logo-content-img{
+    border: solid 0px #42515f;
+}
+.logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid green;
+    margin: 5px;
+}
+
+.add-text {
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: "Montserrat" , sans-serif;
+    letter-spacing: 0px;
+    color: #82a70c;
+    text-transform: capitalize;
+}
+.add-book {
+    color: #42515f;
+}
+*{
+    box-sizing: border-box;
+}
+.form-header {
+    border: 5px solid green;
+}
+.details {
+    display: inline;
+    display: flex;
+    margin-left: 20%;
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.add-details {
+    margin-left: 70%;
+    display: inline;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 12px;
+    border-radius: 4px;
+    background-color: skyblue;
+    color:black;
+    padding: 5px;
+}
+.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    min-width: 800px;
+}
+td,th {
+    text-align: center;
+    padding: 5px 8px;
+}
+th {
+    border-radius: 3px 3px 0px 0px;
+    text-align: left;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: black;
+    text-transform: uppercase;
+    opacity: 1;
+    border: 0px solid #dddddd;
+    background-color: darkgray;
+}
+.table-header {
+    background: #42515f;
+}
+.table-header th {
+    color: cornsilk;
+}
